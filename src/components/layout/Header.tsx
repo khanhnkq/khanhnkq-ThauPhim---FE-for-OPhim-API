@@ -44,14 +44,13 @@ export default function Header() {
 
         {/* LOGO */}
         <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
-          <div className="relative w-10 h-10 overflow-hidden clip-chamfer-tl border border-mecha-accent/50 group-hover:border-mecha-accent transition-colors bg-mecha-surface flex items-center justify-center p-1">
+          <div className="relative w-10 h-10 overflow-hidden clip-chamfer-tl border border-[#fec93d]/50 group-hover:border-[#fec93d] transition-colors bg-mecha-surface flex items-center justify-center p-1">
             <Image
-              src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3djV2cXFlNXE5cTU3Mzk1YTcxYXNoNzVwMnAzdHgwcGZqaGNpdmlxcSZlcD12MV9zdGlja2Vyc19yZWxhdGVkJmN0PXM/Q66dCIgxnb4uzEYDqS/giphy.gif"
-              alt="Logo"
+              src="/logo.png"
+              alt="ThauPhim Logo"
               width={36}
               height={36}
-              className="object-contain"
-              unoptimized
+              className="object-contain rounded-md"
             />
           </div>
           <div className="flex flex-col leading-none">
